@@ -1,0 +1,37 @@
+﻿body {background-color:#85C1E9; 
+       color:#FFFFFF; }
+h1 { background-color:#2471A3;
+      color:#FFFFFF;
+      font-family: Arial; }
+header { background-color :#2471A3;
+         color:#FFFFFF ;
+         font-family: Arial; }
+
+h2 {background-color:#2471A3;
+     color:#FFFFFF; 
+     font-family: Arial;}
+
+h3 {background-color: #2471A3;
+    color:#FFFFFF;
+    font-family: Arial; }
+
+p { color:#17202A ; 
+    font-family: Arial; }
+
+li { color:#17202A ;
+     font-family: Arial; }
+
+footer { color:#17202A; 
+         font-family: Arial;
+         background-image: url(seniorlogo.jpg);
+         background-position: right;
+         background-repeat: no-repeat; }
+
+span { color:#17202A;
+       font-family: Arial; }
+       
+
+legend { color:#17202A;
+         font-family: Arial; }
+
+
