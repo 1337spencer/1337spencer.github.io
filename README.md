@@ -1,13 +1,14 @@
-# 1337spencer.github.io
-Project 2:Spencer Tomlinson
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>New</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="STperformance.css">
+<link rel="stylesheet" href="stperformance.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="my.js"> </script>
 </head>
 <body>
+
 <header>
  <h1><img src="carlogo.jpg.jpg" alt="the logo" width = "1900" height="250" ></h1>
 </header>
@@ -40,53 +41,24 @@ Project 2:Spencer Tomlinson
   <li>Proper intructors and mechanics</li>
   <li>committed to providing the best overall experience</li>
   <li>Best detailers around</li>
-<br /><br />
-<div id="container">
-	<ul>
-      	 <li><img src="line.jpg" width="604" height="453" /></li>
-         <li><img src="Gtr.jpg" width="604" height="453" /></li>
-         <li><img src="camaro.jpg" width="604" height="453" /></li>
-      </ul>
-      <span class="button prevButton"></span>
-      <span class="button nextButton"></span>
+
+<div id="slider">
+  <a href="#" class="control_next">>></a>
+  <a href="#" class="control_prev"><</a>
+  <ul>
+    <li><img src="GTR.jpg" width="500" height="300"></li>
+    <li><img src="camaro.jpg" width= "500" height= "300"></li>
+    <li>SLIDE 3</li>
+    <li style="background: #aaa;">SLIDE 4</li>
+  </ul>  
 </div>
 
+<div class="slider_option">
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Autoplay Slider</label>
+</div> 
 
-<script src="../jquery-1.4.2.min.js"></script>
-
-<script>
-$(window).load(function(){
-		var pages = $('#container li'), current=0;
-		var currentPage,nextPage;
-
-('container .button').click(function(){
-currentPage= pages.eq(current);
-if($(this).hasClass('prevButton'))
-			{
-
-if (current <= 0)
-					current=pages.length-1;
-				else
-					current=current-1;
-			}
-			else
-			{
-				if (current >= pages.length-1)
-					current=0;
-				else
-					current=current+1;
-			}
-			nextPage = pages.eq(current);	
-			currentPage.hide();	
-			nextPage.show();		
-		});
-});
-
-</script>
- </ul> 
-
-
-
+</main>
 <div>
 <br>
 <br>
