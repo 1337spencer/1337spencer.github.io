@@ -43,14 +43,14 @@ Project 2:Spencer Tomlinson
 <br /><br />
 <div id="container">
 	<ul>
-      	<li><img src="line.jpg" width="604" height="453" /></li>
-            <li><img src="Gtr.jpg" width="604" height="453" /></li>
-            <li><img src="camaro.jpg" width="604" height="453" /></li>
+      	 <li><img src="line.jpg" width="604" height="453" /></li>
+         <li><img src="Gtr.jpg" width="604" height="453" /></li>
+         <li><img src="camaro.jpg" width="604" height="453" /></li>
       </ul>
       <span class="button prevButton"></span>
       <span class="button nextButton"></span>
 </div>
-</center>
+
 
 <script src="../jquery-1.4.2.min.js"></script>
 
@@ -59,12 +59,12 @@ $(window).load(function(){
 		var pages = $('#container li'), current=0;
 		var currentPage,nextPage;
 
-		$('#container .button').click(function(){
-			currentPage= pages.eq(current);
-			if($(this).hasClass('prevButton'))
+('container .button').click(function(){
+currentPage= pages.eq(current);
+if($(this).hasClass('prevButton'))
 			{
 
-				if (current <= 0)
+if (current <= 0)
 					current=pages.length-1;
 				else
 					current=current-1;
@@ -86,7 +86,7 @@ $(window).load(function(){
  </ul> 
 
 
-</main>
+
 <div>
 <br>
 <br>
